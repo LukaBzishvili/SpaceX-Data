@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>SpaceX Information Web App</title>
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link class="main_css" rel="stylesheet" href="./src/css/roadster.css" />
+  </head>
+  <body>
+    <header class="main_header">
+      <div class="header_content">
+        <div class="header_left_content">
+          <img onclick="goToIndex()" src="./images/spasexLogo.svg" alt="logo" />
+        </div>
+        <nav class="header_main_nav">
+          <button class="hamburger_btn">Menu</button>
+          <ul class="header_main_ul">
+            <li><a class="capsules" id="header_btn" href="#">Capsules</a></li>
+            <li><a class="cores" id="header_btn" href="#">Cores</a></li>
+            <li><a class="crew" id="header_btn" href="#">Crew</a></li>
+            <li><a class="dragons" id="header_btn" href="#">Dragons</a></li>
+            <li><a class="landpads" id="header_btn" href="#">Landpads</a></li>
+            <li><a class="launches" id="header_btn" href="#">Launches</a></li>
+            <li>
+              <a class="launchpads" id="header_btn" href="#">Launchpads</a>
+            </li>
+            <li><a class="payloads" id="header_btn" href="#">Payloads</a></li>
+            <li><a class="roadster" id="header_btn" href="#">Roadster</a></li>
+            <li><a class="rockets" id="header_btn" href="#">Rockets</a></li>
+            <li><a class="ships" id="header_btn" href="#">Ships</a></li>
+            <li><a class="starlink" id="header_btn" href="#">Starlink</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="loading-container">
+      <div class="loading"></div>
+    </div>
+    <section class="container"></section>
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/capsules.js"></script>
+    <script src="./src/js/crew.js"></script>
+    <script src="./src/js/cores.js"></script>
+    <script src="./src/js/dragons.js"></script>
+    <script src="./src/js/landpads.js"></script>
+    <script src="./src/js/launches.js"></script>
+    <script src="./src/js/launchpads.js"></script>
+    <script src="./src/js/payloads.js"></script>
+    <script src="./src/js/roadster.js"></script>
+    <script src="./src/js/ships.js"></script>
+    <script src="./src/js/rockets.js"></script>
+    <script src="./src/js/starlink.js"></script>
+  </body>
+</html>

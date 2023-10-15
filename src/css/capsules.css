@@ -1,0 +1,90 @@
+* {
+  color: white;
+}
+
+h1 {
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.first_container {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 890px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.first_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 232px;
+  height: 218px;
+  padding: 20px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+
+.first_item_ul li {
+  list-style-type: none;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+
+.first_item h2 {
+  font-size: 20px;
+}
+
+.first_item h2 span {
+  color: gray;
+  font-size: 18px;
+}
+
+.unknown {
+  color: rgb(169, 20, 20);
+}
+
+.active {
+  color: rgb(14, 143, 14);
+}
+
+@media only screen and (max-width: 900px) {
+  .first_container {
+    width: 570px;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .first_container {
+    width: 330px;
+    grid-template-columns: auto;
+  }
+}
+
+/* For Starlink */
+
+.first_item_ul_starlnk li {
+  margin-top: 10px;
+  list-style: none;
+  color: rgb(199, 195, 195);
+  font-weight: 900;
+}
+
+.first_item_starlink {
+  height: 140px;
+}
